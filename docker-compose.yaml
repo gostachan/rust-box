@@ -1,0 +1,8 @@
+services:
+  rust:
+    container_name: rust
+    build: .
+    volumes:
+      - ./srcs:/usr/src/srcs
+      - ./.zshrc:/root/.zshrc
+    tty: true
