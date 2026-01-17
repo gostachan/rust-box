@@ -4,5 +4,4 @@ services:
     build: .
     volumes:
       - ./srcs:/usr/src/srcs
-      - ./.zshrc:/root/.zshrc
     tty: true
